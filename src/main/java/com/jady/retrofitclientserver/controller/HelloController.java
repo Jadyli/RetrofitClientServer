@@ -1,7 +1,7 @@
 package com.jady.retrofitclientserver.controller;
 
 import com.jady.retrofitclientserver.model.HelloWorld;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.jady.retrofitclientserver.model.User;
 import org.springframework.web.bind.annotation.*;
 
 /**

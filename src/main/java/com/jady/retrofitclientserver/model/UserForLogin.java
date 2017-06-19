@@ -1,15 +1,13 @@
-package com.jady.retrofitclientserver.controller;
+package com.jady.retrofitclientserver.model;
 
 /**
  * Created by lipingfa on 2017/6/16.
  */
-public class User {
+public class UserForLogin {
     private String name;
-    private int age;
+    private String password;
 
-    public User(String name, int age) {
-        this.name = name;
-        this.age = age;
+    public UserForLogin() {
     }
 
     public String getName() {
@@ -20,19 +18,19 @@ public class User {
         this.name = name;
     }
 
-    public int getAge() {
-        return age;
+    public String getPassword() {
+        return password;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     @Override
     public String toString() {
         return "User{" +
                 "name='" + name + '\'' +
-                ", age=" + age +
+                ", password=" + password +
                 '}';
     }
 }
