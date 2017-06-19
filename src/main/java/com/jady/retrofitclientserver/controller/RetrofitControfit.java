@@ -6,9 +6,6 @@ import com.jady.retrofitclientserver.model.User;
 import com.jady.retrofitclientserver.model.UserForLogin;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * Created by lipingfa on 2017/6/16.
  */
