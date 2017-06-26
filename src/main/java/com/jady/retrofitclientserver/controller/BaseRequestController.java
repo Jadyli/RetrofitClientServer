@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
  * Created by lipingfa on 2017/6/16.
  */
 @RestController
-public class RetrofitControfit {
+public class BaseRequestController {
     /**
      * get请求
      *
